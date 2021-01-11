@@ -1,0 +1,21 @@
+{
+  "name": "mobx6-issue-repro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prestart": "tsc -p .",
+    "start": "node dist/test.js"
+  },
+  "author": "Royston Shufflebotham",
+  "license": "ISC",
+  "volta": {
+    "node": "12.20.1",
+    "yarn": "1.22.10"
+  },
+  "dependencies": {
+    "mobx": "^6.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
